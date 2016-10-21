@@ -1,0 +1,43 @@
+			#app_bottom{
+				width: 32rem;
+				height: 5rem;
+				position: fixed;
+				left: 0px;
+			}
+			#shouye,#huodong,#youji,#wode{
+				width: 8rem;
+				height: 5rem;
+				float: left;
+				background-color: rgba(51,181,230,1);
+				cursor: pointer;
+				transition: all 0.5s linear 0s;  
+				position: relative;
+			}
+			#shouye:hover{background-color: rgba(51,181,230,0.8);}
+			#huodong:hover{background-color: rgba(51,181,230,0.8);}
+			#youji:hover{background-color: rgba(51,181,230,0.8);}
+			#wode:hover{background-color: rgba(51,181,230,0.8);}
+			
+			#shouye div,#huodong div,#youji div,#wode div{
+				width: 3rem;
+				height: 3rem;
+				position: absolute;
+				left: 50%;
+				margin-left: -1.5rem;
+				top: 0px;
+				background-image: url(../img/背景图1.png);
+				background-size: 26.5rem 2.55rem;	
+				background-repeat: no-repeat;
+			}
+			#shouye div{background-position: 0.3rem 0.2rem;}
+			#huodong div{background-position: -7.7rem 0.2rem;}
+			#youji div{background-position: -15.7rem 0.2rem;}
+			#wode div{background-position: -23.8rem 0.2rem;}
+			#shouye h2,#huodong h2,#youji h2,#wode h2{
+				width: 8rem;
+				color: #fff;
+				font-size: 1.1rem;
+				position: absolute;
+				top: 3.2rem;
+				text-align: center;
+			}

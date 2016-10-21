@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=0.5,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/app_index.css" />
+		<link rel="stylesheet" href="css/sl.css" />
+		<!--↓↓↓↓↓↓↓↓CSS引入区域↓↓↓↓↓↓↓↓-->
+		
+		<!--↑↑↑↑↑↑↑↑CSS引入区域↑↑↑↑↑↑↑↑-->
+		<style>
+			*{margin: 0;padding: 0;}
+			html{
+				font-size: 20px;
+				/*全部用20px，不能更改*/
+			}
+		</style>
+	</head>
+	<body>
+
+
+
+
+
+		<div id="app_bottom">
+			<div id="shouye"><div></div><h2>首页</h2></div>
+			<div id="huodong"><div></div><h2>活动</h2></div>
+			<div id="youji"><div></div><h2>游记</h2></div>
+			<div id="wode"><div></div><h2>我的</h2></div>
+		</div>
+		<!--↓↓↓↓↓↓↓↓内容编写区域↓↓↓↓↓↓↓↓-->
+		<div id = "sl-top1">
+			<img src="img/sl2.png" id = "sl-top2">
+			<div id = "sl-top3">活动</div>
+			<input type="text" placeholder="  输入您的目的地" id="sl-top4">
+			<img src="img/sl1.png" id = "sl-top5">
+		</div>
+		<div id = "sl-top6">
+			<div id = "sl-top7" class="unslider-arrow prev">附近活动</div>
+			<div id = "sl-top8" class="unslider-arrow next">专题活动</div>
+
+		</div>
+		
+		<img src="img/sl4.png" class = "sli1">
+		<img src="img/sl3.png" class = "sli1">
+		<img src="img/sl4.png" class = "sli1">
+		<img src="img/sl3.png" class = "sli1">
+		<!-- <img src="img/sl5.png" class = "slleft"> -->
+		<div id = "slleft">
+			<img src="img/sl6.png" id = "slleft1" >
+			<div id = "slleft2">Sorry</br>暂无附近活动</div>
+		</div>
+		<div id="slleft3">
+			<img src="img/sl7.png" id = "slleft4">
+			<div id = "slleft5">发起活动</div>
+		</div>
+		<div id = "slfoot"></div>
+
+		
+		
+		<!--↑↑↑↑↑↑↑↑内容编写区域↑↑↑↑↑↑↑↑-->
+		
+		
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js" ></script>
+		<script type="text/javascript" src="js/sl.js" ></script>
+		<script type="text/javascript" src="js/app_index.js" ></script>
+		
+		
+		<!--↓↓↓↓↓↓↓↓JavaScript引入区域↓↓↓↓↓↓↓↓-->
+		
+		<!--↑↑↑↑↑↑↑↑JavaScript引入区域↑↑↑↑↑↑↑↑-->
+		
+		
+		<script>
+			window.onload = function(){
+				moves();
+				//在自己的JS中添加  function moves(){...}
+			}
+
+
+		</script>
+	</body>
+</html>
